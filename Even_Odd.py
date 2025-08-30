@@ -1,3 +1,4 @@
+#GIT status check form local repo
 N = int(input("Enter a positive integer N:"))
 M = int(input("Enter a positive integer N:"))
 Sum = N + M
