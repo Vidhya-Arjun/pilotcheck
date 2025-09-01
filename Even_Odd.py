@@ -8,5 +8,4 @@ if Sum % 2 == 0:
     print("The sum is even")
 else:
     print("The sum is odd")    
-
-    print
+print("End of program")
