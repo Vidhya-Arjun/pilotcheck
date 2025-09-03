@@ -14,7 +14,7 @@ class Calculator:
         return self.x * self.y
 
     def divide(self):
-        return self.x / self.y if self.y != 0 else "Cannot divide by zero"
+        return self.x / self.y
 # Class ends
 
 # Implementation
