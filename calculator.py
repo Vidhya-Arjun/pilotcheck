@@ -14,7 +14,10 @@ class Calculator:
         return self.x * self.y
 
     def divide(self):
-        return self.x / self.y
+        try:
+            return self.x / self.y
+        except ZeroDivisionError:
+            return "Divide by Zero not allowed!"
 # Class ends
 
 # Implementation
