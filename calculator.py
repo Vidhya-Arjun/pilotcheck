@@ -5,15 +5,19 @@ class Calculator:
         self.y = y
 
     def add(self):
+        print("Addition operation of two numbers: {} + {}".format(self.x, self.y));
         return self.x + self.y
 
     def subtract(self):
+        print("Subtraction operation of two numbers: {} - {}".format(self.x, self.y));
         return self.x - self.y
 
     def multiply(self):
+        print("multiplication operation of two numbers: {} * {}".format(self.x, self.y));
         return self.x * self.y
 
     def divide(self):
+        print("Divide operation of two numbers: {} / {}".format(self.x, self.y));
         return self.x / self.y
 # Class ends
 
