@@ -18,7 +18,10 @@ class Calculator:
 
     def divide(self):
         print("Divide operation of two numbers: {} / {}".format(self.x, self.y));
-        return self.x / self.y
+        try:
+            return self.x / self.y
+        except ZeroDivisionError:
+            return "Divide by Zero not allowed!"
 # Class ends
 
 # Implementation
